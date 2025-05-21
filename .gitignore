@@ -1,0 +1,15 @@
+# Carpetas generadas automáticamente
+/build/
+/dist/
+
+# Configuraciones locales
+/nbproject/private/
+
+/*.log
+*.class
+*.war
+*.tmp
+
+# Archivos de sistema (Windows)
+Thumbs.db
+.DS_Store
