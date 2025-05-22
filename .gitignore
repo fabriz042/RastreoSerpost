@@ -13,3 +13,34 @@
 # Archivos de sistema (Windows)
 Thumbs.db
 .DS_Store
+
+# Ignorar archivos del volumen persistente de MySQL
+/db/*
+!/db/.gitkeep
+DataBaseMysql/mysql.sock
+
+# Ignorar archivos comunes de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar logs
+*.log
+
+# Ignorar archivos de configuración sensibles (si los tuvieras)
+.env
+.env.local
+
+# Ignorar backups y dumps de DB
+*.sql
+*.sql.gz
+
+# Ignorar archivos temporales de editores
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+
+# Ignorar carpetas de IDEs
+.vscode/
+.idea/
